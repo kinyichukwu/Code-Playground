@@ -1,0 +1,79 @@
+.navbar-ash{
+    background-color: #313A46;
+}
+.btn_ash{
+    background-color: #313A46;
+    color: white;
+    font-weight: 700;
+    padding: .8rem 2.2rem;
+    border-radius: 2rem;
+}
+.btn-ash-nav{
+    background-color: #313A46;
+    color: white;
+}
+.btn-ash-nav:hover{
+    color: white;
+}
+.btn_ash_outline{
+    color: #313A46;
+    background-color: white;
+    font-weight: 700;
+    padding: .8rem 2.2rem;
+    border-radius: 2rem;
+}
+.btn_ash:hover, .btn_ash_outline:hover{
+    box-shadow: 6px 5px 7px #313a4662;
+}
+
+.left{
+    flex: 1;
+    padding: 2.1rem 0;
+}
+.right{
+    flex: 1;
+}
+.right > img {
+    max-width: 100%;
+    width: 62rem;
+    margin: 0 auto;
+    
+
+}
+
+.right-a > img {
+    max-width: 100%;
+    width: 30rem;
+    margin: 0 auto;
+    
+}
+.height-l{
+    height: 100vh;
+}
+.height{
+    height: fit-content;
+}
+
+.text-xm-center{
+    text-align: center;
+}
+.about_styling > h6 {
+    color: #2F2158;
+    font-size: 1.1rem;
+}
+
+.about_styling > p {
+    color: #4A4A4A;
+    font-size: 1.7rem;
+}
+.about_styling > small {
+     color: #4A4A4A;
+    font-size: 1.2rem;
+    display: inline-block;
+}
+
+@media (min-width: 768px) {
+    .height{
+    height: 100vh;
+}
+}
